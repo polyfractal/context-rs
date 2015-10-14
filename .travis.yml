@@ -6,5 +6,8 @@ env:
     - ARCH=x86
     - ARCH=arm
 
+before_install:
+    - uname -a
+
 script:
     - cargo test -v
