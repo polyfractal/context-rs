@@ -13,3 +13,4 @@ pub mod stack;
 mod sys;
 #[cfg(target_arch = "x86_64")]
 mod simd;
+mod detail;

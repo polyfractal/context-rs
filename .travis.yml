@@ -3,3 +3,6 @@ rust: nightly
 
 script:
     - cargo test -v
+    - cargo run --example simple
+    - cargo run --example conditional
+    - cargo run --example asymmetric
